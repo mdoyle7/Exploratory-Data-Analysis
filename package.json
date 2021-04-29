@@ -1,0 +1,27 @@
+{
+  "name": "react-parcel-starter",
+  "version": "1.0.0",
+  "description": "A starter project for react + parcel",
+  "main": "dist/index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url https://colinmegill.github.io/react-parcel-starter/; rm -rf docs; mv dist docs;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin Megill",
+  "license": "MIT",
+  "dependencies": {
+    "d3-array": "^2.12.1",
+    "d3-fetch": "^2.0.0",
+    "d3-geo-projection": "^3.0.0",
+    "d3-scale": "^3.3.0",
+    "parcel": "^2.0.0-beta.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "regl-worldview": "^0.16.1",
+    "topojson-client": "^3.1.0",
+    "vega": "^5.20.2",
+    "vega-lite-api": "^5.0.0",
+    "vega-tooltip": "^0.25.1"
+  }
+}

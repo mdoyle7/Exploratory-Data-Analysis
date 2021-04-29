@@ -1,2 +1,3 @@
-# Exploratory-Data-Analysis
-Assignment 2
+# react-parcel-starter
+
+A starter project with react and parcel
