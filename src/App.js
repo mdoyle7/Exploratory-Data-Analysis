@@ -8,7 +8,7 @@ import world from "../land-50m";
 // https://observablehq.com/@jermspeaks/async-await
 const App = () => {
   const [data, loading] = useFetch(
-    "https://raw.githubusercontent.com/ZeningQu/World-Bank-Data-by-Indicators/master/engergy-and-mining/energy-and-mining.csv"
+    "https://raw.githubusercontent.com/mdoyle7/Exploratory-Data-Analysis/main/energy-mining.csv.txt?token=AJBBLIB34IBMYBCXBBSFBU3ARNQ5U"
   );
   const dataSmallSample = data.slice(0, 5000);
   const TMAXextent = extent(dataSmallSample, (d) => {
