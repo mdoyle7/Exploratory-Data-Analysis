@@ -8,7 +8,7 @@ import world from "../land-50m";
 // https://observablehq.com/@jermspeaks/async-await
 const App = () => {
   const [data, loading] = useFetch(
-    "https://raw.githubusercontent.com/mdoyle7/Exploratory-Data-Analysis/main/energy-mining.csv.txt?token=AJBBLIB34IBMYBCXBBSFBU3ARNQ5U"
+    "https://raw.githubusercontent.com/colinmegill/react-parcel-starter/main/weather.csv"
   );
   const dataSmallSample = data.slice(0, 5000);
   const TMAXextent = extent(dataSmallSample, (d) => {

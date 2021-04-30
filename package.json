@@ -8,7 +8,7 @@
     "build": "parcel build index.html --public-url https://colinmegill.github.io/react-parcel-starter/; rm -rf docs; mv dist docs;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Colin Megill",
+  "author": "Michael Doyle",
   "license": "MIT",
   "dependencies": {
     "d3-array": "^2.12.1",
