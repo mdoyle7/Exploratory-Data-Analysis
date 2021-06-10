@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url https://mdoyle7.github.io/Exploratory-Data-Analysis/; rm -rf docs; mv dist docs;",
+    "build": "parcel build index.html --public-url https://mdoyle7.github.io/Exploratory-Data-Analysis/;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Doyle",
