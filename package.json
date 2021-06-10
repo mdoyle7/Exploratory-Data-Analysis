@@ -2,10 +2,10 @@
   "name": "react-parcel-starter",
   "version": "1.0.0",
   "description": "A starter project for react + parcel",
-  "main": "dist/index.html",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url https://colinmegill.github.io/react-parcel-starter/; rm -rf docs; mv dist docs;",
+    "build": "parcel build index.html --public-url https://mdoyle7.github.io/Exploratory-Data-Analysis/; rm -rf docs; mv dist docs;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Doyle",

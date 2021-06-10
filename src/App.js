@@ -13,22 +13,22 @@ const App = () => {
   const margin = 20; // margin size
   const axisTextAlignmentFactor = 3; // text alignment factor
   const histogramLeftPadding = 20;
-  _bins = bin().thresholds(30);
-  tmaxBins = _bins(
+  const _bins = bin().thresholds(30);
+  const tmaxBins = _bins(
     data.map((d) => {
       if (d["Access to electricity (% of population)"] > 0)
         return +d["Access to electricity (% of population)"];
     })
   );
 
-  tmaxBinsRural = _bins(
+  const tmaxBinsRural = _bins(
     data.map((d) => {
       if (d["Access to electricity, rural (% of rural population)"] > 0)
         return +d["Access to electricity, rural (% of rural population)"];
     })
   );
 
-  tmaxBinsUrban = _bins(
+  const tmaxBinsUrban = _bins(
     data.map((d) => {
       if (d["Access to electricity, urban (% of urban population)"] > 0)
         return +d["Access to electricity, urban (% of urban population)"];
