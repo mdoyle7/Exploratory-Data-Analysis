@@ -53,7 +53,7 @@ const App = () => {
       <ul style={{width: "500px"}}>
         <li> How has access to electricty changed over the years on a global scale?</li>
         <li> When looking at all the countries, is there a large disparity in access to electricity?</li>
-        <li> </li>
+        <li> Is there a great difference in Urban vs Rural vs Overall access to electricity?</li>
       </ul>
       <p style={{width: "500px"}}>
         Given the large size of this dataset, I will be focusing on 3 main columns, being access to electricity overall, in rural areas, and in urban areas. 
@@ -392,6 +392,18 @@ const App = () => {
       <p style={{width: "500px"}}>
         With living in a city, it usually means that the cost of living goes up, meaning there is probably access to electricity. 
         Urban populations definitely showed this with a very drastic shift in having nearly all the values around the mean. There are not very many countries below the 50% mark in comparison to the other graphs.
+        For these graphs, I purposefully zoomed out on the graph to see the drasticness between the highest bars and the lowest bars.
+        The insignifigance of the bars near 90-100% shows how large the disparity is with access to electricity across the globe. 
+      </p>
+      <h4>Conclusion</h4>
+      <p style={{width: "500px"}}>
+        In working with this data, I was surprised to see the great differences in access to electricity and how it has changed over time.
+        There is definitely a big disparity in regards to access to electricity, and that disparity is even more apparent when looking at Urban vs Rural populations.
+        Urban cities are the most privileged when it comes to having access to electricity. When displaying this data, I tried to have visualizations
+        that could show a noticable difference to the viewer in order to get the end message across clearly and answer the questions.
+        In working with d3, I definitely learned a lot with making visualizations and the process of finding visualizations that can showcase the questions
+        to be answered. Although I wasn't able to fully complete all the visualizations for this assignment, I became more familiar with d3 and how to go about exploring a dataset
+        and the necessary steps to take in preparing it for a visualization.
       </p>
     </div>
   );
